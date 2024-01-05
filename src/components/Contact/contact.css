@@ -1,0 +1,15 @@
+.links{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.link{
+    object-fit:cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    left: 60%;
+    top: 50%;
+    transform: translate(1500%, -40%); /* Center both horizontally and vertically */
+
+}

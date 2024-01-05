@@ -1,0 +1,59 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1000000000rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin:0 auto;
+    z-index: 1;
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600rem;
+    padding-top: -30%;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+   z-index: 2;
+}
+
+.skillDesc{
+    font-weight:200;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 200vw;
+    max-width: 80%;
+    text-align: left;
+}
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.skillBarImg{
+    object-fit:cover;
+    height: 5rem;
+    width:5rem;
+    margin-right:2rem;
+
+}
+.heading{
+    color:rgb(255, 192, 209);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skillBarText>p {
+font-size: 1rem;
+font-weight: 200;
+}
